@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Black+Ops+One&family=Borel&family=Montserrat:wght@200;300;400&family=Nunito:wght@200;500&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;0,700;1,700&family=Rubik:wght@500&family=Sedgwick+Ave+Display&family=Ubuntu:wght@300&family=Work+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    padding: 0 7%;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center; 
+}
+
+nav ul{
+    flex: 1;
+  
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav .btn{
+    color: white;
+    text-decoration: none; 
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.content{
+    margin-top:5%; 
+}
+
+.content h1{
+    font-size: 88px;
+    margin-bottom: 15px;
+}
+
+.content h1 span{
+    color: #ff960b;
+}
+
+.content p{
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background:#ff960b; 
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 900;
+}
+
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color:#ff960b;  
+    border: 1px solid white;
+    padding: 20px 30px;
+    border: 8px;
+}
+
+.coin img{
+    margin-right: 10px;
+}
+
+.coin h3{
+    color: white;
+    margin-bottom: 5px;
+}
